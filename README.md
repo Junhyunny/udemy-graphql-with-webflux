@@ -9,3 +9,4 @@
 ## Chapters
 
 * [003. GraphQL - Introduction](/docs/chapter-003.md)
+* [004. GraphQL - Types](/docs/chapter-004.md)
