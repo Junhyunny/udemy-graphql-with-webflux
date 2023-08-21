@@ -15,3 +15,17 @@
   sayHelloTo(name: "Junhyunny")
 }
 ```
+
+* 리액티브 프로그래밍에서 다음과 같이 동작하는 것과 동일하다.
+
+```java
+Mono<String> sayHello();
+Mono<String> sayHelloTo(String name);
+Mono<Integer> random();
+
+return Mono.zip(
+    sayHello(),
+    sayHelloTo("Junhyunny"),
+    random()
+);
+```
