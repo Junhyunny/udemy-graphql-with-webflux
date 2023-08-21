@@ -10,3 +10,4 @@
 
 * [003. GraphQL - Introduction](/docs/chapter-003.md)
 * [004. GraphQL - Types](/docs/chapter-004.md)
+* [012. How GraphQL is different from REST?](/docs/chapter-012.md)
