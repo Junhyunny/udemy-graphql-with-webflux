@@ -3,7 +3,7 @@
 
 * 여러 엔드포인트(endpoint)에 동시에 요청을 보낼 수 있다.
 
-```graphqls
+```graphql
 {
   random
   sayHello

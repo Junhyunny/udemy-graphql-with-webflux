@@ -20,7 +20,7 @@
 * 다음과 같은 예시를 들 수 있다.
     * `#`을 사용하면 주석을 자성할 수 있다.
 
-```graphqls
+```graphql
 type Customer {
     id: ID
     name: String
@@ -37,7 +37,7 @@ type Product {
 
 * 느낌표(!)를 사용하면 Not nullable 항목들을 지정할 수 있다.
 
-```graphqls
+```graphql
 type Customer {
     id: ID! // never be null
     name: String! // never be null
@@ -54,7 +54,7 @@ type Product {
 
 * enum 타입을 만들 수 있다.
 
-```graphqls
+```graphql
 enum Brand {
     HOMDA
     BMW
@@ -76,7 +76,7 @@ type Car {
 | Mutation | POST / PUT / DELETE / PATCh |
 | Subscription | SSE / WebSocket(for Streaming) |
 
-```graphqls
+```graphql
 type Query {
     ...
 }
@@ -92,7 +92,7 @@ type Subscription {
     * 데이터베이스 스키마와 유사하다.
     * 타입, 필드, 관계를 정의한다.
 
-```graphqls
+```graphql
 type Query {
     getCustomer: Customer
 }
