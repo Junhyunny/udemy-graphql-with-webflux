@@ -15,3 +15,5 @@
 * [037. Field Alias](/docs/chapter-037.md)
 * [038. Executing Same API With Different Arguments](/docs/chapter-038.md)
 * [039. Fragments](/docs/chapter-039.md)
+* [040. Operation Name](/docs/chapter-040.md)
+* [041. Using Variable](/docs/chapter-041.md)
