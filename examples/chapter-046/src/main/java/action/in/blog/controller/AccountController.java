@@ -2,7 +2,6 @@ package action.in.blog.controller;
 
 import action.in.blog.domain.Account;
 import action.in.blog.domain.Customer;
-import graphql.schema.DataFetchingEnvironment;
 import org.springframework.graphql.data.method.annotation.BatchMapping;
 import org.springframework.stereotype.Controller;
 import reactor.core.publisher.Flux;
