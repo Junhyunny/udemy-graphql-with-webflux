@@ -17,3 +17,5 @@
 * [039. Fragments](/docs/chapter-039.md)
 * [040. Operation Name](/docs/chapter-040.md)
 * [041. Using Variable](/docs/chapter-041.md)
+* [043. Directives - @include / @skip](/docs/chapter-043.md)
+* [044. Directives - @Deprecated](/docs/chapter-044.md)
