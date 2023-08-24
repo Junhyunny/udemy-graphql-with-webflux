@@ -1,0 +1,37 @@
+scalar Date
+
+interface Product {
+    id: ID
+    description: String
+    price: Int
+}
+
+type Fruit implements Product {
+    id: ID
+    description: String
+    price: Int
+    expiryDate: Date
+}
+
+type Electronics implements Product {
+    id: ID
+    description: String
+    price: Int
+    brand: Brand
+}
+
+type Book implements Product {
+    id: ID
+    description: String
+    price: Int
+    author: String
+}
+
+enum Brand {
+    APPLE
+    SAMSUNG
+}
+
+type Query {
+    products: [Product]!
+}

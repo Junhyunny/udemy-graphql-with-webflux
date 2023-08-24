@@ -19,3 +19,6 @@
 * [041. Using Variable](/docs/chapter-041.md)
 * [043. Directives - @include / @skip](/docs/chapter-043.md)
 * [044. Directives - @Deprecated](/docs/chapter-044.md)
+* [064. GraphQL Interface - Schema Design](/docs/chapter-064.md)
+* [066. GraphQL Interface - Demo](/docs/chapter-066.md)
+* [067. Type Resolver Configuration](/docs/chapter-067.md)
