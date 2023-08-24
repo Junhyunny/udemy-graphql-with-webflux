@@ -58,4 +58,7 @@ query Operation($name: String! = "Junhyunny") {
 
 * 변수를 사용하면 정상적으로 캐시가 되지만, 만약 일부 클라이언트가 값을 바꿔가면서 요청을 보내면 정상적으로 캐싱이 되지 않는다.
 * cache 맵에 계속 데이터가 추가되므로 out of memory 에러가 발생할 수 있다.
-* `caffein` 이라는 라이브러리를 추천한다.
+* `caffeine` 이라는 라이브러리를 추천한다.
+    * LRU cache
+    * Keep recently used
+    * Evict the old
