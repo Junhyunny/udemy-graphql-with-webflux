@@ -22,3 +22,5 @@
 * [064. GraphQL Interface - Schema Design](/docs/chapter-064.md)
 * [066. GraphQL Interface - Demo](/docs/chapter-066.md)
 * [067. Type Resolver Configuration](/docs/chapter-067.md)
+* [087. Multiple Mutation](/docs/chapter-087.md)
+* [090. Mutation CRUD Summary](/docs/chapter-090.md)
