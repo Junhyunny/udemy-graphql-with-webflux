@@ -1,0 +1,26 @@
+query GetCustomerById($id: ID!) {
+
+    customerById(id: $id) {
+        typeName: __typename
+        ... on Customer {
+            ...CustomerDetails
+        }
+        ... on CustomerNotFound {
+            ...CustomerNotFoundDetails
+        }
+    }
+    #    b: customerById(id: 2) {
+    #        ...CustomerDetails
+    #    }
+}
+
+fragment CustomerDetails on Customer {
+    id
+    name
+    age
+    city
+}
+fragment CustomerNotFoundDetails on CustomerNotFound {
+    id
+    message
+}
